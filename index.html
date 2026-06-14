@@ -21,7 +21,23 @@ color:#ffffff;
 font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
 
 }
+<header class="header">
 
+<div class="logo">
+TOKIMEKI
+</div>
+
+<nav>
+
+<a href="#concept">CONCEPT</a>
+<a href="#menu">MENU</a>
+<a href="#price">PRICE</a>
+<a href="#access">ACCESS</a>
+<a href="#">WEB予約</a>
+
+</nav>
+
+</header>
 .hero{
 
 min-height:100vh;
@@ -32,7 +48,7 @@ justify-content:center;
 
 align-items:center;
 
-padding:40px;
+padding:120px 40px 40px;
 
 text-align:center;
 
@@ -152,7 +168,68 @@ letter-spacing:3px;
 color:#999;
 
 }
+.header{
 
+position:fixed;
+
+top:0;
+left:0;
+
+width:100%;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:20px 40px;
+
+background:rgba(15,15,15,0.85);
+
+backdrop-filter:blur(10px);
+
+z-index:999;
+
+}
+
+.logo{
+
+font-size:22px;
+
+letter-spacing:6px;
+
+color:white;
+
+}
+
+nav{
+
+display:flex;
+
+gap:25px;
+
+}
+
+nav a{
+
+color:#d4af37;
+
+text-decoration:none;
+
+font-size:13px;
+
+letter-spacing:2px;
+
+transition:0.3s;
+
+}
+
+nav a:hover{
+
+color:white;
+
+}
 </style>
 
 </head>
